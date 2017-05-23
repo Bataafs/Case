@@ -8,7 +8,7 @@ package ziektesim;
  *
  * @author 010737
  */
-public class Persoon {
+public class Persoon extends Wereld {
     
     public static void main (String [] args) {
     

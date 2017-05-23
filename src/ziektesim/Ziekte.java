@@ -8,6 +8,6 @@ package ziektesim;
  *
  * @author 010737
  */
-public class Ziekte {
+public class Ziekte extends Wereld {
     
 }
