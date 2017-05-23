@@ -9,5 +9,5 @@ package ziektesim;
  * @author 010737
  */
 public class Wereld {
-    
+    //jkgvfgjk
 }
