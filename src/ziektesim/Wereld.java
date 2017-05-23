@@ -9,5 +9,8 @@ package ziektesim;
  * @author 010737
  */
 public class Wereld {
+    public static void main (String [] args) {
+    
+}
     
 }

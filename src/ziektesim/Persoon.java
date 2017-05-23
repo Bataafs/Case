@@ -9,13 +9,14 @@ package ziektesim;
  * @author 010737
  */
 public class Persoon extends Wereld {
-    
-    public static void main (String [] args) {
-    
+    int popu;
+    public static void submain (String [] args) {
+        
 }
     
     public static int Population() {
-        return 0;
+        int popu=10000;
+        return popu;
     
 }
     
