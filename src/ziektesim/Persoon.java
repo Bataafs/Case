@@ -8,6 +8,9 @@ public class Persoon {
     
     public Persoon(int meegegevenLeeftijd){
         leeftijd = meegegevenLeeftijd;
+        
+        
+        
     }
     
     
