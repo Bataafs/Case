@@ -1,13 +1,14 @@
 package ziektesim;
 
-public class Persoon {
-    public  int popu;
-    public  int oud;
+public class Persoon { 
+    
+    public int leeftijd;
     
     
     
-    public static void submain (String [] args) {
-
-}
+    public Persoon(int meegegevenLeeftijd){
+        leeftijd = meegegevenLeeftijd;
+    }
+    
     
 }
