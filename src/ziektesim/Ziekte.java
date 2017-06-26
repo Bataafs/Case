@@ -1,7 +1,7 @@
 package ziektesim;
 
-public class Ziekte extends Wereld {
-    public static void submain (String [] args) {
+public class Ziekte {
+  
         
         int alpha;
         int beta;
@@ -9,13 +9,13 @@ public class Ziekte extends Wereld {
         int gamma;
         //30 (hoe snel mensen resistent worden)
         
-}
-    public Virus() {
-        
-        
-        
+
+    public Ziekte(int alphaInput, int betaInput, int gammaInput) {
+    alpha=alphaInput;
+    beta=betaInput;
+    gamma=gammaInput;
+    } 
+
     
-}
-    
-    
-}
+}  
+
