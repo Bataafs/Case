@@ -8,7 +8,6 @@ public class Wereld {
     Persoon[] personen;
     
     public static void main (String [] args) {
-    //oud=(int) (Math.random()*100);
     Populatie();
     zetLeeftijd();
 }
@@ -32,7 +31,6 @@ public class Wereld {
         int statusB=0;
         int statusC=0;
         for(int i=0; i<(popu); i++){
-             // System.out.println(i+" "+personen[i].print());
             if (personen[i].getStatus() == 0) {
                 statusA++;
             } else if (personen[i].getStatus() == 1) {
@@ -53,7 +51,7 @@ public class Wereld {
             if (personen[randomInt].getStatus()==2){
             } else {
                 personen[randomInt].maakStatus(1);
-            } //System.out.println(randomInt+" "+personen[randomInt].print());
+            } 
         } print();
     }
     
